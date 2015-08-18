@@ -1,0 +1,16 @@
+
+
+1. Products (physical)
+	--> Single Product (detail view)
+		--> Social Sharing Buttons
+	--> List Product (list view)
+	--> Inventory Control + Viewable
+	--> Search Products
+
+2. Checkout
+	--> Cart (shopping cart)
+	--> Auth Users & Guest User (non-auth)
+	--> Shipping & Billing Address
+
+3. Payment
+	--> Integration with Braintree (steps on other integrations)
