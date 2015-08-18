@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+
+
+{% block content %}
+
+
+<table class='table'>
+{% for object in object_list %}
+
+<tr>
+<td>{{ object.title }}</td>
+</tr>
+
+{% endfor %}
+</table>
+
+
+{% endblock %}

@@ -14,3 +14,10 @@ class Product(models.Model):
 
 	def __unicode__(self): #def __str__(self):
 		return self.title 
+
+
+# Product Images
+
+
+# Product Category
+
