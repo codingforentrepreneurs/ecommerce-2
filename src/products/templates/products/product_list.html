@@ -9,7 +9,7 @@
 {% for object in object_list %}
 
 <tr>
-<td>{{ object.title }}</td>
+<td><a href='{{ object.get_absolute_url }}'>{{ object.title }}</a></td>
 </tr>
 
 {% endfor %}
