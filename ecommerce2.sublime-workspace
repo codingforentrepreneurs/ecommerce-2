@@ -1,0 +1,965 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"get",
+				"get_queryset"
+			],
+			[
+				"course",
+				"courses"
+			],
+			[
+				"tem",
+				"team_courses"
+			],
+			[
+				"post_",
+				"post_save〔variable〕"
+			],
+			[
+				"T",
+				"TeamCourse"
+			],
+			[
+				"cour",
+				"course_obj"
+			],
+			[
+				"team",
+				"team_courses"
+			],
+			[
+				"con",
+				"contrib〔module〕"
+			],
+			[
+				"get_",
+				"get_or_create"
+			],
+			[
+				"rel",
+				"related_name"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"Tea",
+				"TeamCourse〔class〕"
+			],
+			[
+				"de",
+				"deactivate_all〔function〕"
+			],
+			[
+				"ob",
+				"object〔variable〕"
+			],
+			[
+				"in",
+				"instance〔argument〕"
+			],
+			[
+				"lan",
+				"language〔variable〕"
+			],
+			[
+				"ln",
+				"lang"
+			],
+			[
+				"k",
+				"kwargs"
+			],
+			[
+				"add",
+				"addClass〔function〕"
+			],
+			[
+				"m",
+				"models〔module〕"
+			],
+			[
+				"M",
+				"ModelForm"
+			],
+			[
+				"Cour",
+				"CourseForm〔module〕"
+			],
+			[
+				"name",
+				"namespace='analytics"
+			],
+			[
+				"smart",
+				"smart_text〔function〕"
+			],
+			[
+				"slug",
+				"slugify〔module〕"
+			],
+			[
+				"max",
+				"max_length"
+			],
+			[
+				"chemi",
+				"chemicals"
+			],
+			[
+				"ne",
+				"needs_rep_training"
+			],
+			[
+				"pp",
+				"ppe_4"
+			],
+			[
+				"pre",
+				"precautionary_statements_4"
+			],
+			[
+				"Succ",
+				"successful"
+			],
+			[
+				"De",
+				"DefaultChemicalManager"
+			],
+			[
+				"auto_",
+				"auto_now"
+			],
+			[
+				"auto_now",
+				"auto_now_add"
+			],
+			[
+				"Che",
+				"ChemicalDetailViewAdmin"
+			],
+			[
+				"det",
+				"DetailView"
+			],
+			[
+				"pesti",
+				"PESTICIDE"
+			],
+			[
+				"Lec",
+				"LectureQuiz"
+			],
+			[
+				"Quiz",
+				"QuizQuestion"
+			],
+			[
+				"corr",
+				"correct_answer"
+			],
+			[
+				"clean",
+				"cleaned_data"
+			],
+			[
+				"le",
+				"lectures"
+			],
+			[
+				"QU",
+				"QuizQuestion"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"js",
+				"JsonResponse"
+			],
+			[
+				"is_",
+				"is_ajax"
+			],
+			[
+				"dat",
+				"dataTitle"
+			],
+			[
+				"ans",
+				"answered_is"
+			],
+			[
+				"cle",
+				"cleaned_data"
+			],
+			[
+				"L",
+				"LectureQuiz"
+			],
+			[
+				"get_b",
+				"get_object_or_404"
+			],
+			[
+				"Lecture",
+				"LectureQuiz"
+			],
+			[
+				"eng",
+				"english_trans"
+			],
+			[
+				"span",
+				"span_trans"
+			],
+			[
+				"tr",
+				"transcript"
+			],
+			[
+				"cl",
+				"cleaned_data"
+			],
+			[
+				"spani",
+				"spanish_transcript"
+			],
+			[
+				"t",
+				"transcripts"
+			],
+			[
+				"lecture",
+				"LectureTranscript"
+			],
+			[
+				"Le",
+				"Lecture"
+			],
+			[
+				"su",
+				"success"
+			],
+			[
+				"lectured",
+				"LectureDetailView"
+			],
+			[
+				"lo",
+				"LoginRequiredMixin"
+			],
+			[
+				"update",
+				"update_user	statement"
+			],
+			[
+				"ti",
+				"timezone	module"
+			],
+			[
+				"com",
+				"completed_on	statement"
+			],
+			[
+				"chem",
+				"chem_done	statement"
+			],
+			[
+				"pass",
+				"passing_score"
+			],
+			[
+				"Date",
+				"DateTimeField	class"
+			],
+			[
+				"User",
+				"UserQuizResult	class"
+			],
+			[
+				"Man",
+				"ManyToManyField	class"
+			],
+			[
+				"test",
+				"test_merchant_id	statement"
+			],
+			[
+				"Br",
+				"BRAINTREE_PUBLIC"
+			],
+			[
+				"user",
+				"user_updated	statement"
+			],
+			[
+				"Use",
+				"UserModel	class"
+			],
+			[
+				"the",
+				"the_user"
+			],
+			[
+				"remo",
+				"removeClass"
+			],
+			[
+				"re",
+				"register	statement"
+			],
+			[
+				"all",
+				"all_data	statement"
+			],
+			[
+				"lec",
+				"lecture"
+			],
+			[
+				"last",
+				"last_quiz_answered"
+			],
+			[
+				"las",
+				"last_viewed"
+			],
+			[
+				"date",
+				"DateTimeField	class"
+			],
+			[
+				"la",
+				"last_viewed	statement"
+			],
+			[
+				"se",
+				"settings	instance"
+			],
+			[
+				"succe",
+				"Successfully"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"comp",
+				"completed"
+			],
+			[
+				"key",
+				"reset_key"
+			],
+			[
+				"res",
+				"reset_start	statement"
+			],
+			[
+				"ac",
+				"activation_key"
+			],
+			[
+				"che",
+				"chemicals	statement"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect	class"
+			],
+			[
+				"Te",
+				"TeamChemicalsManager	class"
+			],
+			[
+				"ch",
+				"chemicals"
+			],
+			[
+				"tea",
+				"TeamChemicals	class"
+			],
+			[
+				"me",
+				"members"
+			],
+			[
+				"Team",
+				"TeamChemicals	class"
+			],
+			[
+				"c",
+				"chemicals	statement"
+			],
+			[
+				"man",
+				"ManyToManyField	class"
+			],
+			[
+				"fin",
+				"final_activities	statement"
+			],
+			[
+				"meber",
+				"members	statement"
+			],
+			[
+				"p",
+				"PASSING_SCORE"
+			],
+			[
+				"qu",
+				"quiz	statement"
+			],
+			[
+				"Da",
+				"DateTimeField	class"
+			],
+			[
+				"use",
+				"username	param"
+			],
+			[
+				"set",
+				"set_password"
+			],
+			[
+				"new",
+				"new_password"
+			],
+			[
+				"te",
+				"temporary_password"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"bk",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"radio",
+				"radio-selcted"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"rad",
+				"radio-selcted"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"log",
+				"login_required	function"
+			],
+			[
+				"next_",
+				"next_lecture"
+			],
+			[
+				"quiz",
+				"quiz"
+			],
+			[
+				"answer",
+				"answers_correct	statement"
+			],
+			[
+				"ma",
+				"max_digits	None"
+			],
+			[
+				"quest",
+				"question_obj	statement"
+			],
+			[
+				"an",
+				"answers	statement"
+			],
+			[
+				"HT",
+				"HttpResponseRedirect	class"
+			],
+			[
+				"cor",
+				"correct_answer"
+			],
+			[
+				"Que",
+				"QuizQuestionManager"
+			],
+			[
+				"Lect",
+				"LectureQuiz	class"
+			],
+			[
+				"send",
+				"sender_email	statement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "package",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 125.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/jmitch/Desktop/cbv/README.md",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/company/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/courses/templates/courses/course_list.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/courses/templates/courses/select.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/lecture_admin.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/detail.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/urls.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/courses/admin.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/admin.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/courses/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/base.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/chemicals/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/chemicals/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/courses/templates/courses/single.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/middleware.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/chemicals/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/courses/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/settings/base.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/settings/local.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/admin.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/billing/tasks.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/questions/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/questions/tasks.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/settings/email.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/todo.txt",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/courses/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/courses/urls.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/urls.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/all.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/rep_training_needed.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/company/urls.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/chemicals/tasks.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/questions/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/quiz/user_results_all.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/legal/terms.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/legal/privacy.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/home.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/javascript.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/core_css.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/tinymce/eng_textareas.js",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/quiz/user_results_detail.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/default.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/mixins.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/footer.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/activity.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/pdfs/user_results_pdf.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/add_script.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/urls.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/review_chemicals.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/utils.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/team_member_details.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/admin.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/company/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/chemical_list.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/default_chemical_form.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/chemicals/admin.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/company/company_admin_list_group.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/sidebar.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/chemical_form.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/chemical_confirm_delete.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/manage_sidebar.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/settings/production.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/favicons.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/favicons.htm",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/form.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/company/home.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/chemical_update.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/quiz_answer_admin.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/select_chemicals.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/lecture_quiz_admin.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/questions/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/quiz_view.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/navbar.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/quiz.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/edit_modules.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/single.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/templatetags/selectedanswer.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/middleware.py",
+		"/Users/jmitch/Dropbox/projects/kpj/todo.txt",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/company/forms.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/error/400.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/error/500.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/billing/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/admin.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/braintree_info.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/accounts/join.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/error/404.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/requirements.txt",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/urls.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/ajax.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/chemicals/utils.py",
+		"/Users/jmitch/Desktop/interface.png",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/templatetags/last_lecture_action.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/views.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/models.py",
+		"/Users/jmitch/Dropbox/projects/kpj/lib/python2.7/site-packages/boto/sdb/db/blob.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/tests.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/templatetags/__init__.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/accounts/reset_email_text.txt",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/comingsoon.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/chemicals/review_chemicals.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/chemicals/review_checmicals.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/team_member_activity.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/home.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/team_member_results.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/activity.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/quiz_results.html",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/__init__.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/admin.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/templatetags/get_action_type.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/templatetags/get_model_name.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/templatetags/__init__.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/templatetags/get_model_name.py",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/templatetags/get_type",
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/templatetags/__init__.py"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"/Users/jmitch/Dropbox/projects/kpj",
+			"/Users/jmitch/Dropbox/projects/kpj/kpj",
+			"/Users/jmitch/Dropbox/projects/",
+			"/Users/jmitch/Dropbox/projects/kpj/kpj",
+			"<open files>",
+			"/Users/jmitch/Dropbox/projects/kpj/kpj",
+			"/Users/jmitch/Dropbox/projects/kpj",
+			"/Users/jmitch/Dropbox/cfe/src"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"questions_notification",
+			"app.task",
+			"needs_rep",
+			"sendgrid",
+			"celerybeat-schedule.db",
+			"get_next_lecture",
+			"lecture_quiz_result",
+			"quiz",
+			"url",
+			"reverse",
+			"module-box",
+			"slug",
+			"lang",
+			"send_mail",
+			"get_user",
+			"ppe_4",
+			"as_view",
+			"\"join\"",
+			"saftey",
+			"Saftey Trianing i",
+			"Training on new pesticides prior to first use",
+			"transaction",
+			"render_to",
+			"render_to_pdf",
+			"render_to",
+			"DeleteView",
+			"welcome_",
+			"welcome",
+			"all.html",
+			"$.ajax",
+			"ajax",
+			"wistia",
+			"upload",
+			"review",
+			"review now",
+			"review_chemicals",
+			"lectures_admin",
+			"upload_bulk",
+			"ChemicalsViewAdmin",
+			"filter(active=F",
+			"active",
+			"LectureQuizAdminView",
+			"formview",
+			"$.ajax",
+			"ajax",
+			"clean",
+			"keep",
+			"questionanswer",
+			"initial",
+			"get_lecture",
+			"slug",
+			"LectureDetailView",
+			"get_lecture",
+			"get_next_lecture",
+			"lecture_quiz",
+			"edit_lecture",
+			"single_lecture",
+			"single",
+			"form.as",
+			"question.as",
+			"question",
+			"method",
+			"csv",
+			"ceu",
+			"login",
+			"easy",
+			"grand",
+			"pricing",
+			"cost",
+			"paginator",
+			"question",
+			"lecturequestion",
+			"question",
+			"next",
+			"take_quiz",
+			"after ",
+			"href",
+			"take_quiz",
+			"start",
+			"Coding",
+			"Coding For Entrepreneurs",
+			"Coding for Entrepreneurs",
+			"results",
+			"cleaned_email",
+			"class=\"fa fa-check\"",
+			"You are already logged in",
+			"pricing",
+			"login",
+			"PasswordResetForm",
+			"team",
+			"team_id",
+			"user_logged_in",
+			"transcript",
+			"template",
+			"modal",
+			"def __unicode__(self)",
+			"def__unicode__(self)",
+			"check",
+			"chain",
+			"action",
+			"get_model",
+			"team",
+			"DEFAULT_FROM_EMAIL",
+			"PasswordResetForm",
+			"activate",
+			"settings",
+			"request",
+			"reset",
+			"checmicals",
+			"activity",
+			"Pag",
+			"quiz",
+			"middle",
+			"user_logged_in",
+			"create",
+			"create_user",
+			"MemberCreateForm",
+			"Member",
+			"member",
+			"member.obj",
+			"member",
+			"activity(request",
+			"activity(",
+			"team",
+			"activity",
+			"UserQuizResult",
+			"home.html",
+			"all.html"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Control Guidance Solutions, LLC",
+			"class=\"fa fa-check fa-2x\"",
+			"img/apple-touch-icon-152.png",
+			"{})",
+			"render(request,",
+			"render(",
+			")",
+			"render(request,",
+			"Coding For Entrepreneurs",
+			"CodingForEntrepreneurs.com",
+			"Coding For Entrepreneurs",
+			"CodingForEntrepreneurs.com"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 136.0
+	},
+	"pinned_build_system": "",
+	"project": "ecommerce2.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"email",
+				"templates/team/email_instructions.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 313.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
