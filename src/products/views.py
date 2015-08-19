@@ -1,5 +1,5 @@
 
-
+from django.db.models import Q
 from django.http import Http404
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
@@ -20,7 +20,25 @@ class ProductListView(ListView):
 	def get_context_data(self, *args, **kwargs):
 		context = super(ProductListView, self).get_context_data(*args, **kwargs)
 		context["now"] = timezone.now()
+		context["query"] = self.request.GET.get("q") #None
 		return context
+
+	def get_queryset(self, *args, **kwargs):
+		qs = super(ProductListView, self).get_queryset(*args, **kwargs)
+		query = self.request.GET.get("q")
+		if query:
+			qs = self.model.objects.filter(
+				Q(title__icontains=query) |
+				Q(description__icontains=query)
+				)
+			try:
+				qs2 = self.model.objects.filter(
+					Q(price=query)
+				)
+				qs = (qs | qs2).distinct()
+			except:
+				pass
+		return qs
 
 
 class ProductDetailView(DetailView):
