@@ -95,6 +95,9 @@ Share<br/>
 <hr/>
 <h4>Related Products</h4>
 
+{% for product in related %}
+<a href='{{ product.get_absolute_url }}'>{{ product.title }}</a> <br/>
+{% endfor %}
 </div>
 
 <!-- End Product Sidebar -->
