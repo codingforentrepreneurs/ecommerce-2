@@ -1,79 +1,71 @@
-![Try Django 1.8 Logo](https://cfe-static.s3.amazonaws.com/media/try-django-18/images/try_django_18.png)
+![eCommerce 2 Logo](https://cfe-static.s3.amazonaws.com/media/ecommerce-2/images/ecommerce2.png)
 
-Try Django 1.8 Tutorial Series
+eCommerce 2 Tutorial Series
 =========
 
-Try Django 1.8 is an introduction to [Django](http://djangoproject.com) version 1.8. This series covers a variety of Django basics as well as Django 1.8 specific material. Created by Team CFE @ [http://joincfe.com](http://joincfe.com).
+eCommerce 2 is a step-by-step guide to creating your own custom eCommerce site using Django, Bootstrap, and Braintree Payments. 
 
-The tutorial videos are available on our [YouTube channel](http://joincfe.com/youtube) and ad-free on [Coding for Entrepreneurs](http://joincfe.com/projects). 
+The project we use is [Try Django 1.8](https://github.com/codingforentrepreneurs/Try-Django-1.8). Created by Team CFE @ [http://joincfe.com](http://joincfe.com).
+
+Interested in learning more?
+Sign up on our [YouTube channel](http://joincfe.com/youtube)
+Become a member on [Coding for Entrepreneurs](http://joincfe.com/enroll)
 
 
 The tutorial code below is the final code from the end of each tutorial video. Each link below is tied directly to the tutorial's title. Please note that some videos will not have code reference code.
 
 ## Tutorial Code
-[Template Configuration](../../tree/4d21a37f1c20f18bbee65530dd48a6c8cd31d6df)
+[4 - Try Django 1.8 to eCommerce 2](../../tree/56f77d130f5480ff663cef2c3017e693d1328148)
 
-[Models](../../tree/a88a084fd396c67f168130565584495b59495e59)
+[5 - Product Roadmap](../../tree/6b23ca5c7909240a670c25c80e9720d13d95b536)
 
-[Admin](../../tree/1ac79ed3c1c721d2e12bfea7f30508e218c3e357)
+[6 - Products App](../../tree/1e1584f56da7f6bec382484ad8f2dd97e679e72d)
 
-[Model Form](../../tree/c9b24d93b33b5f34b6805df2f2f381e2499912e8)
+[7 - Product Detail View](../../tree/5c4036ceafa4676625a0fa09d708b06f0af613fa)
 
-[Form Validation](../../tree/d63785c9906cc9cb0f7efc6e27cf2179e8132690)
+[8 - Urls within Django App](../../tree/ea7f8687bffba15ca4926253b67e9b123f2ede23)
 
-[View & Template Context](../../tree/661647c6e50d381cd2bd8780c62d805b5a7c5946)
+[9 - Add HTML Template](../../tree/48865980c921221a41df58652fbc4762292cb494)
 
-[Forms in Views](../../tree/6ad56c45e8cdf963c650e5333d32577aee41b473)
+[10 - ListView](../../tree/19f05e9aa1c0cce0068eb827e1b1c9fcf2f48674)
 
-[Setup Email](../../tree/fe28adf2786760931ad51ad85127afde71b0fbf4)
+[11 - Using Links for Model Instances](../../tree/3ba0dc24c9641969e5acb9f76c00a93a1e13e8fb)
 
-[Static files & Serve Static Files](../../tree/773144fabc00d85df492528985a86fccd82b2215)
+[12 - Model Managers](../../tree/23f050823bda71912e0cdf8982f320544ce26af8)
 
-[Adding Bootstrap to Django](../../tree/937ffbeeba11856260898ced85b9a6e86d5de9d9)
+[13 - Product Variations](../../tree/cc1b295cf9aebafdf70a0fc9bcaedbfa68e69634)
 
-[Django Templates - Include, Inheritance, Blocks](../../tree/1c39291e88d3ba965655bb24de9ed655ccb86fda)
+[14 - Post Save Signals for Variations](../../tree/9750448b1b546dc8ab9af4ddd6f9df1f7aceba7b)
 
-[Third Party Library - Django Crispy Forms](../../tree/7c546a2c5d8e8ecbedd3d27caf54189017021af2)
+[15 - Product Detail Layout](../../tree/f763e0fe85396656e3924f15ef94667121b707d4)
 
-[Bootstrap Grid System](../../tree/7ee93dc0b3552544743f99fd25e0b891ba855d4b)
+[16 - Image Uploads](../../tree/f8506e415ffe0c61e78e27f56ee94ea2aa3ba345)
 
-[Styling MVP Landing Part 1](../../tree/3286b0262d87e0259a0158a07641ecbcc63519ff)
+[17 - Search Query](../../tree/0ae1310200be1ea8b1ba3425b6a021b9113c83cc)
 
-[CSS with Blocks](../../tree/6404af614c316208adc28bee50d42aa1c52e524e)
+[18 - Formset for Inventory](../../tree/5c8a0856be6b7597526169c515e5d0710f9f4379)
 
-[URL Names as Links](../../tree/f5e177f7e7d8b142a77f02f38b8eb89cbb669c29)
+[19 - Login Required Mixins](../../tree/798c466f6e18d2f6ac6980d5256d546616ff3a67)
 
-[Styling MVP Landing Part 2](../../tree/35c5a6eeb27bbda877548d5470410a6cb238f16e)
+[20 - Django Messages](../../tree/7fef3797948ab06380363b053a8114635563b90c)
 
-[Django Registration Redux *Start*](../../tree/0c71e7f565e0a5aeddb7c44bbb99bd90a9ad6722)
+[21 - Social Share](../../tree/84874bf02bef12b73fc69caee40547890e5ea357)
 
-[Django Registration Redux - *Done*](../../tree/62696aa2d90725036b04e550d4056dbc86f7bbc9)
+[22 - Dynamical Update Price with jQuery](../../tree/c9489fa732e7fe2b98711bb9251726fc2b099dd9)
 
-[Update Django Login URL to Custom URL](../../tree/4e0b620b55067d6e1b77e28faa07d04ace2de31b)
+[23 - Single Variation Price](../../tree/a365ff865e1da5005855471f5e67c152a8036e8b)
 
-[Authentication Links in the Navbar](../../tree/023e7d53b4635a017c42a8f694a4d9203024d58b)
+[24 - Product Categories](../../tree/612d833da2bb143cc8460d0f50b25b240935ab57)
 
-[Login Form in Bootstrap Navbar](../../tree/96b214261c97fa36cb0dd6952a7432478cef9d26)
+[25 - Category Detail View](../../tree/dcd32c1eae7058cea435799f9cc1e0bd530111e1)
 
-[Styling MVP Landing Part 3](../../tree/537018c9ca1bc9eb5c9a836d2ba578cee19fe066)
+[26 - Related Products](../../tree/982c06c26d0da66207be34ba62df5ea88610e983)
 
-[Logo Image in Navbar](../../tree/2ca0848f959bbfad855478e4ce2c524d20e320a4)
+[27 - Distinct and Random QuerySets](../../tree/17f75f394311876d1219b3192895a37ae544b8d4)
 
-[Promo Video & Images](../../tree/b4a5151a07750b34c21d2e65a6af6c259ed441c5)
+[28 - Improve UI](../../tree/3515382e56a2a47ec390b8851a3fae8a77c1afea)
 
-[Icons with Font Awesome](../../tree/e1f215fd493b34d957b38398e9cae4b22c02bee8)
+[29 - Django Template Include with Variable](../../tree/dfd07da26129b92bdf5d075923450d86dcc54057)
 
-[Content for Authenticated Users](../../tree/318281f6ba98dece8446555718a8a978a03d1ca8)
-
-[QuerySet Basics](../../tree/0d50de62cac7b01465fd654400d7d2c2a012c7a8)
-
-[Settings for Different Environments](../../tree/d8f6e8587b58217f4e1530a925cc7ec9b31a5f57)
-
-[Using SSH with WebFaction](../../tree/e13aa28b0785f979c5c4278746486d739fc0d6a8)
-
-[FTP for Production Settings](../../tree/dc30a0e33271af6141008bef2da9943adc2eacc7)
-
-[Fix Static Settings](../../tree/7d24e9780c7b737aeeab7ddf9e2098c721ea5eb7)
-
-[Final Code](../../tree/4ec82937b63e2e2c9441769dce7cc1a5bc393f28)
+[30 - Featured Product on Homepage](../../tree/7ce52aaf4b95dced14519f99f2e10bd11f83687b)
 
