@@ -13,13 +13,8 @@
 
 
 	<div class='col-xs-4'>
-		<div class="thumbnail text-center">
-		<h4><a href='{{ product.get_absolute_url }}'>{{ product.title }}</a></h4>
-			{% if product.get_image_url %}
-			<a href='{{ product.get_absolute_url }}'><img id='img' class='img-responsive' src='{{ product.get_image_url }}' /></a><br/>
-			{% endif %}
-		</div>
-		</div>
+		{% include "products/product_thumbnail.html" with product=product price=true %}
+	</div>
 	{% cycle '' '' '</div><div class="row">' %}
 
 {% endfor %}
