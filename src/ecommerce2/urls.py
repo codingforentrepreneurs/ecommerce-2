@@ -3,6 +3,8 @@ from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.contrib import admin
 
+from carts.views import CartView
+
 
 urlpatterns = [
     # Examples:
@@ -15,6 +17,7 @@ urlpatterns = [
     url(r'^accounts/', include('registration.backends.default.urls')),
     url(r'^products/', include('products.urls')),
     url(r'^categories/', include('products.urls_categories')),
+    url(r'^cart/$', CartView.as_view(), name='cart'),
 ]
 
 if settings.DEBUG:
