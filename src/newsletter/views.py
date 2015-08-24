@@ -2,7 +2,7 @@ from django.conf import settings
 from django.core.mail import send_mail
 from django.shortcuts import render
 
-from products.models import ProductFeatured
+from products.models import ProductFeatured, Product
 from .forms import ContactForm, SignUpForm
 from .models import SignUp
 
@@ -11,12 +11,16 @@ def home(request):
 	title = 'Sign Up Now'
 
 	featured_image = ProductFeatured.objects.filter(active=True).order_by("?").first()
+	products = Product.objects.all().order_by("?")[:6]
+	products2 = Product.objects.all().order_by("?")[:6]
 
 	form = SignUpForm(request.POST or None)
 	context = {
 		"title": title,
 		"form": form,
 		"featured_image":featured_image,
+		"products":products,
+		"products2":products2
 	}
 
 
@@ -34,20 +38,6 @@ def home(request):
 		instance.save()
 		context = {
 			"title": "Thank you"
-		}
-
-	if request.user.is_authenticated() and request.user.is_staff:
-		#print(SignUp.objects.all())
-		# i = 1
-		# for instance in SignUp.objects.all():
-		# 	print(i)
-		# 	print(instance.full_name)
-		# 	i += 1
-
-		queryset = SignUp.objects.all().order_by('-timestamp') #.filter(full_name__iexact="Justin")
-		#print(SignUp.objects.all().order_by('-timestamp').filter(full_name__iexact="Justin").count())
-		context = {
-			"queryset": queryset
 		}
 
 	return render(request, "home.html", context)

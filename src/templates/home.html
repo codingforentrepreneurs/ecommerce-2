@@ -29,7 +29,6 @@
 
      
 {% block jumbotron %}
- {% if not request.user.is_authenticated %}
 
 	{% if featured_image %}
 		<div class="jumbotron" >
@@ -72,7 +71,7 @@
 	 </div>
 
 	 {% endif %}
- {% endif %}
+
 
 {% endblock %}
 
@@ -80,6 +79,21 @@
 
 
 {% block content %}
+
+<div class='row'>
+<h3>Recommended Products</h3>
+{% include "products/products.html" with object_list=products col_class_set="col-sm-2" %}
+
+</div>
+
+<div class='row'>
+<h3>Featured Products</h3>
+{% include "products/products.html" with object_list=products2 %}
+
+</div>
+
+
+<!-- 
  {% if request.user.is_authenticated %}
 <h1>You are logged in!</h1>
 
@@ -133,7 +147,7 @@
 
 <span class="fa-stack fa-lg fa-5x">
 <i class="fa fa-circle-o-notch fa-stack-2x"></i>
-  <!-- <i class="fa fa-square-o fa-stack-2x"></i> -->
+
   <i class="fa fa-github fa-stack-1x"></i>
 </span>
 </p>
@@ -143,6 +157,6 @@
 
 
 </div>
-{% endif %}
+{% endif %} -->
 
 {% endblock %}
