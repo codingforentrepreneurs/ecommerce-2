@@ -31,6 +31,9 @@
 
 
           <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href='#'><i class="fa fa-shopping-cart fa-navbar-cart"></i> <span class='badge'>0</span></a>
+          </li>
           {% if request.user.is_authenticated %}
             <li><a href="{% url 'auth_logout' %}">Logout</a></li>
             {% else %}
