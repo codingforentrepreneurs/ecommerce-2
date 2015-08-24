@@ -5,10 +5,31 @@ from django.contrib import admin
 
 from .models import Product, Variation, ProductImage, Category, ProductFeatured
 
+class ProductImageInline(admin.TabularInline):
+	model = ProductImage
+	extra = 0
+	max_num = 10
 
-admin.site.register(Product)
+class VariationInline(admin.TabularInline):
+	model = Variation
+	extra = 0
+	max_num = 10
 
-admin.site.register(Variation)
+
+class ProductAdmin(admin.ModelAdmin):
+	list_display = ['__unicode__', 'price']
+	inlines = [
+		ProductImageInline,
+		VariationInline,
+	]
+	class Meta:
+		model = Product
+
+admin.site.register(Product, ProductAdmin)
+
+
+
+#admin.site.register(Variation)
 
 admin.site.register(ProductImage)
 
