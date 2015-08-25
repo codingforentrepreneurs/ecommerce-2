@@ -23,7 +23,7 @@ $(".item-qty").change(function(){
 <input type='hidden' name='item' value='{{ item.item.id }}' />
 
 <td><input type='number' class='item-qty' name='qty' value='{{ item.quantity }}' /><input type='submit' class='btn-update btn btn-link' value='Update item' style='display:none;'/></td>
-<td>{{ item.line_total }}</td>
+<td>{{ item.line_item_total }}</td>
 <td class='text-right' ><a href='{{ item.remove }}'>X</a>
 
 
