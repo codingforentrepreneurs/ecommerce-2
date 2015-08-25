@@ -38,6 +38,7 @@ $("#submit-btn").click(function(event){
 		data: formData,
 		success: function(data) {
 			showFlashMessage(data.flash_message);
+			updateCartItemCount();
 		}, 
 		error: function(response, error) {
 			// console.log(response)

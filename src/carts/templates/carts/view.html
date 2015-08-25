@@ -45,6 +45,7 @@ $(".item-qty").change(function(){
 				message = "Item updated"
 			}
 			showFlashMessage(message);
+			updateCartItemCount()
 			}, 
 		error: function(response, error) {
 			// console.log(response)
