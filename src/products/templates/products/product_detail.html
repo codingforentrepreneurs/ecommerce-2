@@ -52,31 +52,35 @@ $(".variation_select").change(function(){
 <!-- Product Sidebar -->
 <div class='col-sm-4'>
 
+<form method='GET' action="{% url 'cart' %}">
+	{% if object.variation_set.count > 1 %}
+	<h3 id='price'>{{ object.variation_set.first.price }}</h3>
 
-{% if object.variation_set.count > 1 %}
-<h3 id='price'>{{ object.variation_set.first.price }}</h3>
-<select class='form-control variation_select'>
-{% for vari_obj in object.variation_set.all %}
-<!-- <option data-img="http://www.spirit1059.com/pics/Feeds/Articles/2015611/118317/Beach.jpg" data-price="{{ vari_obj.price }}" value="{{ vari_obj.id }}">{{ vari_obj }}</option> -->
-<option data-sale-price="{{ vari_obj.sale_price }}" data-price="{{ vari_obj.price }}" value="{{ vari_obj.id }}">{{ vari_obj }}</option>
-{% endfor %}
-</select>
+	<select name='item' class='form-control variation_select'>
+		{% for vari_obj in object.variation_set.all %}
+		<!-- <option data-img="http://www.spirit1059.com/pics/Feeds/Articles/2015611/118317/Beach.jpg" data-price="{{ vari_obj.price }}" value="{{ vari_obj.id }}">{{ vari_obj }}</option> -->
+		<option  data-sale-price="{{ vari_obj.sale_price }}" data-price="{{ vari_obj.price }}" value="{{ vari_obj.id }}">{{ vari_obj }}</option>
+		{% endfor %}
+		</select>
 
-{% else %}
+	{% else %}
+		<input type="hidden" name='item' value='{{ object.variation_set.first.id }}' />
+			<h3 id='price'>{% if object.variation_set.first.sale_price %}
+			{{ object.variation_set.first.sale_price  }}
+			<small class='og-price'>{{ object.variation_set.first.price }}</small>
+			{% else %}
+			
+			{{ object.variation_set.first.price }}
+			{% endif %}
+		</h3>
 
-<h3 id='price'>{% if object.variation_set.first.sale_price %}
-{{ object.variation_set.first.sale_price  }}
-<small class='og-price'>{{ object.variation_set.first.price }}</small>
-{% else %}
-{{ object.variation_set.first.price }}
-{% endif %}
-</h3>
 
-
-{% endif %}
+	{% endif %}
+	<br/>
+	<input class='form-control' type='number' name='qty' value='1' />
 <br/>
-<a href="#">Add to Cart</a>
-
+<input type='submit' value='Add to Cart' class='btn btn-default' />
+</form>
 
 <br/>
 <hr/>
