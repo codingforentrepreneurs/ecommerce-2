@@ -69,3 +69,37 @@ The tutorial code below is the final code from the end of each tutorial video. E
 
 [30 - Featured Product on Homepage](../../tree/7ce52aaf4b95dced14519f99f2e10bd11f83687b)
 
+[31 - Login as Dropdown Menu](../../tree/6d2304edee03b9a6c31072ff3b7288f6c652c562)
+
+[32 - Shopping Cart Icon](../../tree/8de1a2080aaa88d7d5c855321e9a2bcde951be3d)
+
+[33 - Product Lists on Homepage](../../tree/9d1dcb07f2808b52c95f141bc8738d5d5878717e)
+
+[34 - Product Editing with Django Admin Inlines](../../tree/9bb05c8663a190178e561381f66787045ca40c06)
+
+[35 - Carts App](../../tree/7ddd9bf227025e38c59156a4dd4f67305c3a5577)
+
+[36 - ManyToMany Through](../../tree/37359e667e6f7d24c7d0b7efb6a7c3959dc24ff3)
+
+[37 - ManyToMany Through using the Shell](../../tree/c202d75463c6e762b0ea5d95b2c138e74bafe4c7)
+
+[38 - Add, Remove, Update Cart in a CBV](../../tree/c68a59789c8f80c1679d0e92226f7142dd5c2721)
+
+[39 - Django Sessions](../../tree/1b1e4b7c293217390bbb052307d80dcd8d29af17)
+
+[40 - Render Cart View](../../tree/6947e0e6d30e284c0235cb36b554dd3dad8f4bd4)
+
+[41 - Add to Cart from Product View](../../tree/dcd321713723003ef0dcb2d2aa3d89b8e760e38b)
+
+[42 - Format Cart & Remove Items](../../tree/7779bed20758778ef82ac351ed1848f3ab7e9b4d)
+
+
+
+
+
+
+
+
+
+
+
