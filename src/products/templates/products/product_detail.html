@@ -1,7 +1,6 @@
 {% extends "base.html" %}
 
 
-
 <script>
 {% block jquery %}
 
@@ -26,6 +25,9 @@ $(".variation_select").change(function(){
 })
 
 
+
+
+
 $("#submit-btn").click(function(event){
 	event.preventDefault();
 	var formData = $("#add-form").serialize();
@@ -36,6 +38,9 @@ $("#submit-btn").click(function(event){
 		data: formData,
 		success: function(data) {
 			$("#jquery-message").text("Added " + data.item_added + " Deleted " + data.deleted)
+			showFlashMessage("Product added");
+			
+
 		}, 
 		error: function(response, error) {
 			// console.log(response)
@@ -55,6 +60,8 @@ $("#submit-btn").click(function(event){
 
 
 {% block content %}
+
+
 <div class='row'>
 
 <div class='col-sm-8'>
