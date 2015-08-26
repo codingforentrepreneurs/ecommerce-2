@@ -93,6 +93,23 @@ The tutorial code below is the final code from the end of each tutorial video. E
 
 [42 - Format Cart & Remove Items](../../tree/7779bed20758778ef82ac351ed1848f3ab7e9b4d)
 
+[43 - Update Cart Item Quantity in Cart](../..tree/ac84ddfa86d88a41b2559a84c78eabb63c791fb9)
+
+[44 - Cart Line Item Total](../../tree/39aac72f53e575f7fd33d354a782c8e52ab9f774)
+
+[45 - Cart Subtotal](../../tree/8ff279fccf8fc33474e8b160538511dad9e36fc3)
+
+[46 - Ajax Part 1](../../tree/77b1d4ed824640fd18bcb1712f9a7644ac43e3ce)
+
+[47 - Ajax Part 2](../../tree/be4d26f2aecae946e74756b01bf2729c3aaaaa75)
+
+[48 - jQuery Flash Message](../../tree/197ce56cc9db19fe7b6667100d67bb8a72e4c89c)
+
+[49 - Display Message from Server](../../tree/07412bb2c9c04fc145d9814d1c6d077ae2de9ac2)
+
+[50 - Empty Cart](../../tree/b5d82adba9f9ee28c84326ed9ec8802d2d5e7e54)
+
+[51 - Cart Count in Navbar](../../tree/8da933290a239323480d3c0567d04e725c87415f)
 
 
 
