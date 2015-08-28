@@ -3,7 +3,13 @@
 
 {% block content %}
 
+<form method="POST" action=''>{% csrf_token %}
+
 
 {{ form|crispy }}
 
+
+<input type='submit' value='Select'/>
+
+</form>
 {% endblock %}
