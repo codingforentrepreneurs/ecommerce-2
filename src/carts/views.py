@@ -9,6 +9,7 @@ from django.views.generic.edit import FormMixin
 # Create your views here.
 
 from orders.forms import GuestCheckoutForm
+from orders.models import UserCheckout
 from products.models import Variation
 
 
@@ -142,19 +143,25 @@ class CheckoutView(FormMixin, DetailView):
 	def get_context_data(self, *args, **kwargs):
 		context = super(CheckoutView, self).get_context_data(*args, **kwargs)
 		user_can_continue = False
-		if not self.request.user.is_authenticated():# or if request.user.is_guest:
+		user_check_id = self.request.session.get("user_checkout_id")
+		if not self.request.user.is_authenticated() or user_check_id == None:# or if request.user.is_guest:
 			context["login_form"] = AuthenticationForm()
 			context["next_url"] = self.request.build_absolute_uri()
-		if self.request.user.is_authenticated(): #or if request.user.is_guest():
+		elif self.request.user.is_authenticated() or user_check_id != None:
 			user_can_continue = True
+		else:
+			pass
 		context["user_can_continue"] = user_can_continue
 		context["form"] = self.get_form()
 		return context
 
 	def post(self, request, *args, **kwargs):
+		self.object = self.get_object()
 		form = self.get_form()
 		if form.is_valid():
-			print form.cleaned_data.get("email")
+			email = form.cleaned_data.get("email")
+			user_checkout, created = UserCheckout.objects.get_or_create(email=email)
+			request.session["user_checkout_id"] = user_checkout.id
 			return self.form_valid(form)
 		else:
 			return self.form_invalid(form)

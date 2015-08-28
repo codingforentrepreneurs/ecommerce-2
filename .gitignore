@@ -3,3 +3,4 @@ include/
 lib/
 .DS_STORE
 .Python
+*.py[cod]
