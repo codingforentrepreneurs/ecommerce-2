@@ -4,7 +4,7 @@ from django.conf.urls.static import static
 from django.contrib import admin
 
 from carts.views import CartView, ItemCountView, CheckoutView
-from orders.views import AddressSelectFormView
+from orders.views import AddressSelectFormView, UserAddressCreateView
 
 urlpatterns = [
     # Examples:
@@ -21,6 +21,7 @@ urlpatterns = [
     url(r'^cart/count/$', ItemCountView.as_view(), name='item_count'),
     url(r'^checkout/$', CheckoutView.as_view(), name='checkout'),
     url(r'^checkout/address/$', AddressSelectFormView.as_view(), name='order_address'),
+    url(r'^checkout/address/add/$', UserAddressCreateView.as_view(), name='user_address_create'),
 
 ]
 
