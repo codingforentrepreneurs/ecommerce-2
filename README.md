@@ -111,12 +111,41 @@ The tutorial code below is the final code from the end of each tutorial video. E
 
 [51 - Cart Count in Navbar](../../tree/8da933290a239323480d3c0567d04e725c87415f)
 
+[52 - Cart Total & Taxes](../../tree/b479ea81098c455009ec8cdb32689a7793765939)
 
+[53 - Checkout View](../../tree/4cac4239c1558c6276fea821a452688465df8a49)
 
+[54 - Orders App](../../tree/6bdc3adb9fd7e6dbe09dba0c17fa7f5e19f68d42)
 
+[55 - Checkout Form & FormMixin](../../tree/d28ee366f0f09edb5f0d552743fd4094d91b2294)
 
+[56 - Save Guest Info](../../tree/59b3d227f97933344c03f8dfe586ae24f3fb40b2)
 
+[57 - UserAddress Model](../../tree/b9732273f5432598e2dc2870e784bb779ff71875)
 
+[58 - UserAddress View](../../tree/d79030107c1a1a3e2c79a9db685c1721177fd13d)
 
+[59 - Model Choice Field](../../tree/314cc38464c49dd16783074f25f6ebd5cd58187b)
 
+[60 - Order Model](../../tree/d2def0a12ae10c853cd7a2ab5f155834a8aa142e)
+
+[61 - Crafting the Order Part 1](../../tree/0cd928951c404dc95c03dd960d4ef6564a59c848)
+
+[62 - Crafting the Order Part 2](../../tree/813d0302eaa527f58d75d14b404c58c78e81625f)
+
+[63 - Crafting the Order Part 3](../../tree/7e91663382bb8228b1f60d436b4779a70b132609)
+
+[64 - Crafting the Order Part 4](../../tree/801d22185dcb508168218421112728e14ad5f799)
+
+[65 - Custom Mixin for Cart & Order](../../tree/1bb9134b012b01169528989c31120f021e622568)
+
+[66 - Checkout Finalize View](../../tree/b9f9de55f872317d95d6bb86fe47f58c2efe45d3)
+
+[67 - Order Status](../../tree/8a142117867b153d37ac4d5fcb363fb63af6b106)
+
+[68 - Order List](../../tree/3c25afb884c84301fae33b772bdf264ac171320f)
+
+[69 - Login Required Mixin](../../tree/e55a5355aa804a8f938a79b2c41f82e0d8c9da44)
+
+[70 - Order Detail](../../tree/251382a8c1bce8301f3e2403c4df5b65778af911)
 
