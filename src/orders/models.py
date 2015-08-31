@@ -37,6 +37,7 @@ class UserAddress(models.Model):
 
 
 class Order(models.Model):
+	#status
 	cart = models.ForeignKey(Cart)
 	user = models.ForeignKey(UserCheckout, null=True)
 	billing_address = models.ForeignKey(UserAddress, related_name='billing_address', null=True)

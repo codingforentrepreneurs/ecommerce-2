@@ -200,4 +200,30 @@ class CheckoutView(CartOrderMixin, FormMixin, DetailView):
 
 
 
+class CheckoutFinalView(CartOrderMixin, View):
+	def post(self, request, *args, **kwargs):
+		order = self.get_order()
+		if request.POST.get("payment_token") == "ABC":
+			print order.cart.items.all()
+		return redirect("checkout")
+
+	def get(self, request, *args, **kwargs):
+		return redirect("checkout")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
