@@ -5,15 +5,17 @@ from  django.views.generic.list import ListView
 # Create your views here.
 
 from .forms import AddressForm, UserAddressForm
-from .mixins import CartOrderMixin
+from .mixins import CartOrderMixin, LoginRequiredMixin
 from .models import UserAddress, UserCheckout, Order
 
 
-class OrderList(ListView):
+
+
+class OrderList(LoginRequiredMixin, ListView):
 	queryset = Order.objects.all()
 
 	def get_queryset(self):
-		user_check_id = self.request.session.get("user_checkout_id")
+		user_check_id = self.request.user.id
 		user_checkout = UserCheckout.objects.get(id=user_check_id)
 		return super(OrderList, self).get_queryset().filter(user=user_checkout)
 
