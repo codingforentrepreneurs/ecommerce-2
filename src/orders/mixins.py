@@ -7,6 +7,8 @@ from .models import Order
 class CartOrderMixin(object):
 	def get_order(self, *args, **kwargs):
 		cart = self.get_cart()
+		if cart is None:
+			return None
 		new_order_id = self.request.session.get("order_id")
 		if new_order_id is None:
 			new_order = Order.objects.create(cart=cart)
