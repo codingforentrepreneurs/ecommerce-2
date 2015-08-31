@@ -9,7 +9,9 @@ from django.views.generic.edit import FormMixin
 # Create your views here.
 
 from orders.forms import GuestCheckoutForm
+from orders.mixins import CartOrderMixin
 from orders.models import UserCheckout, Order, UserAddress
+
 from products.models import Variation
 
 
@@ -128,26 +130,16 @@ class CartView(SingleObjectMixin, View):
 
 
 
-class CheckoutView(FormMixin, DetailView):
+
+class CheckoutView(CartOrderMixin, FormMixin, DetailView):
 	model = Cart
 	template_name = "carts/checkout_view.html"
 	form_class = GuestCheckoutForm
 
-	def get_order(self, *args, **kwargs):
-		cart = self.get_object()
-		new_order_id = self.request.session.get("order_id")
-		if new_order_id is None:
-			new_order = Order.objects.create(cart=cart)
-			self.request.session["order_id"] = new_order.id
-		else:
-			new_order = Order.objects.get(id=new_order_id)
-		return new_order
-
 	def get_object(self, *args, **kwargs):
-		cart_id = self.request.session.get("cart_id")
-		if cart_id == None:
-			return redirect("cart")
-		cart = Cart.objects.get(id=cart_id)
+		cart = self.get_cart()
+		if cart == None:
+			return None
 		return cart
 
 	def get_context_data(self, *args, **kwargs):
@@ -191,22 +183,15 @@ class CheckoutView(FormMixin, DetailView):
 	def get(self, request, *args, **kwargs):
 		get_data = super(CheckoutView, self).get(request, *args, **kwargs)
 		cart = self.get_object()
+		if cart == None:
+			return redirect("cart")
 		new_order = self.get_order()
 		user_checkout_id = request.session.get("user_checkout_id")
 		if user_checkout_id != None:
 			user_checkout = UserCheckout.objects.get(id=user_checkout_id)
-			billing_address_id = request.session.get("billing_address_id")
-			shipping_address_id = request.session.get("shipping_address_id")
-
-			if billing_address_id == None or shipping_address_id == None:
-				return redirect("order_address")
-			else:
-				billing_address = UserAddress.objects.get(id=billing_address_id)
-				shipping_address = UserAddress.objects.get(id=shipping_address_id)
-
+			if new_order.billing_address == None or new_order.shipping_address == None:
+			 	return redirect("order_address")
 			new_order.user = user_checkout
-			new_order.billing_address = billing_address
-			new_order.shipping_address = shipping_address
 			new_order.save()
 		return get_data
 

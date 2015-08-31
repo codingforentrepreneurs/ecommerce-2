@@ -55,6 +55,7 @@ Order Summary</p>
 </div>
 
 <div class='col-sm-4 col-sm-offset-4 text-center'>
+
 <p><b>Billing to</b>
 <br/>
 {{ order.billing_address.get_address }}
@@ -63,6 +64,9 @@ Order Summary</p>
 <br/>
 {{ order.shipping_address.get_address }}
 <p>
+<p>
+ <a href='{% url "order_address" %}'>Change an Address</a>
+</p>
 <br/>
 <p><b>Complete Order</b>
 
