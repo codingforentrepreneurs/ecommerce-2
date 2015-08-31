@@ -1,11 +1,22 @@
 from django.contrib import messages
 from django.shortcuts import render, redirect
 from django.views.generic.edit import CreateView, FormView
+from  django.views.generic.list import ListView
 # Create your views here.
 
 from .forms import AddressForm, UserAddressForm
 from .mixins import CartOrderMixin
-from .models import UserAddress, UserCheckout
+from .models import UserAddress, UserCheckout, Order
+
+
+class OrderList(ListView):
+	queryset = Order.objects.all()
+
+	def get_queryset(self):
+		user_check_id = self.request.session.get("user_checkout_id")
+		user_checkout = UserCheckout.objects.get(id=user_check_id)
+		return super(OrderList, self).get_queryset().filter(user=user_checkout)
+
 
 
 
