@@ -1,5 +1,5 @@
 <p class='lead'>
-Order Summary</p>
+Order {% if order.order_id %}#{{ order.order_id }}{% endif %} Summary</p>
 
 <table class='table'>
 <tr><td>{{ order.cart.cartitem_set.count }} Item(s): <br/>{% for i in order.cart.cartitem_set.all %}
