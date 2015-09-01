@@ -8,7 +8,9 @@ eCommerce 2 is a step-by-step guide to creating your own custom eCommerce site u
 The project we use is [Try Django 1.8](https://github.com/codingforentrepreneurs/Try-Django-1.8). Created by Team CFE @ [http://joincfe.com](http://joincfe.com).
 
 Interested in learning more?
+
 Sign up on our [YouTube channel](http://joincfe.com/youtube)
+
 Become a member on [Coding for Entrepreneurs](http://joincfe.com/enroll)
 
 
