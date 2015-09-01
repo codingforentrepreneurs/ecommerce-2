@@ -3,9 +3,21 @@
 {% load crispy_forms_tags %}
 
 
-{{ client_token }}
 
 
+
+<script>
+{% block jquery %}
+var clientToken = "{{ client_token }}";
+
+braintree.setup(clientToken, "dropin", {
+  container: "payment-form"
+});
+
+
+
+{% endblock %}
+</script>
 
 {% block content %}
 
@@ -53,12 +65,16 @@
 </p>
 <br/>
 
-<form method='POST' action="{% url 'checkout_final' %}">{% csrf_token %}
-<input type='hidden' name='payment_token' value='ABC' />
+<form id="checkout"  method='POST' action="{% url 'checkout_final' %}">{% csrf_token %}
+<!-- <input type='hidden' name='payment_token' value='ABC' /> -->
+<div id="payment-form"></div>
 <p><b><button type='submit'>Complete Order</button></b>
 
 </p>
 </form>
+
+
+
 
 </div>
 

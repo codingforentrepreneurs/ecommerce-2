@@ -9,16 +9,10 @@ from carts.models import Cart
 import braintree
 
 if settings.DEBUG:
-	braintree.Configuration.configure(
-	    braintree.Environment.Sandbox,
-	    'n84nynknvzz3j3sz',
-	    'qn3p5n7njksw47r3',
-	    'd14ac944794c0df1c81991ecf49221ff'
-	)
-	# braintree.Configuration.configure(braintree.Environment.Sandbox,
- #      merchant_id=settings.BRAINTREE_MERCHANT_ID,
- #      public_key=settings.BRAINTREE_PUBLIC,
- #      private_key=settings.BRAINTREE_PRIVATE)
+	braintree.Configuration.configure(braintree.Environment.Sandbox,
+      merchant_id=settings.BRAINTREE_MERCHANT_ID,
+      public_key=settings.BRAINTREE_PUBLIC,
+      private_key=settings.BRAINTREE_PRIVATE)
 
 
 
@@ -84,7 +78,9 @@ class UserAddress(models.Model):
 
 ORDER_STATUS_CHOICES = (
 	('created', 'Created'),
-	('completed', 'Completed'),
+	('paid', 'Paid'),
+	('shipped', 'Shipped'),
+	('refunded', 'Refunded'),
 )
 
 
@@ -96,13 +92,15 @@ class Order(models.Model):
 	shipping_address = models.ForeignKey(UserAddress, related_name='shipping_address', null=True)
 	shipping_total_price = models.DecimalField(max_digits=50, decimal_places=2, default=5.99)
 	order_total = models.DecimalField(max_digits=50, decimal_places=2, )
-	#order_id
+	order_id = models.CharField(max_length=20, null=True, blank=True)
 
 	def __unicode__(self):
 		return str(self.cart.id)
 
-	def mark_completed(self):
-		self.status = "completed"
+	def mark_completed(self, order_id=None):
+		self.status = "paid"
+		if order_id and not self.order_id:
+			self.order_id = order_id
 		self.save()
 
 
@@ -114,6 +112,8 @@ def order_pre_save(sender, instance, *args, **kwargs):
 
 pre_save.connect(order_pre_save, sender=Order)
 
-
+# #if status == "refunded":
+# 	braintree refud
+# post_save.connect()
 
 # 	
