@@ -1,17 +1,49 @@
 from decimal import Decimal
 from django.conf import settings
 from django.db import models
-from django.db.models.signals import pre_save
+from django.db.models.signals import pre_save, post_save
 # Create your models here.
 from carts.models import Cart
+
+
+import braintree
+
+if settings.DEBUG:
+	braintree.Configuration.configure(
+	    braintree.Environment.Sandbox,
+	    'n84nynknvzz3j3sz',
+	    'qn3p5n7njksw47r3',
+	    'd14ac944794c0df1c81991ecf49221ff'
+	)
+	# braintree.Configuration.configure(braintree.Environment.Sandbox,
+ #      merchant_id=settings.BRAINTREE_MERCHANT_ID,
+ #      public_key=settings.BRAINTREE_PUBLIC,
+ #      private_key=settings.BRAINTREE_PRIVATE)
+
+
 
 class UserCheckout(models.Model):
 	user = models.OneToOneField(settings.AUTH_USER_MODEL, null=True, blank=True) #not required
 	email = models.EmailField(unique=True) #--> required
-
+	braintree_id = models.CharField(max_length=120, null=True, blank=True)
 
 	def __unicode__(self): #def __str__(self):
 		return self.email
+
+
+def update_braintree_id(sender, instance, *args, **kwargs):
+	if not instance.braintree_id:
+		#update it
+		result = braintree.Customer.create({
+		    "email": instance.email,
+		})
+		if result.is_success:
+			instance.braintree_id = result.customer.id
+			instance.save()
+
+
+post_save.connect(update_braintree_id, sender=UserCheckout)
+
 
 
 

@@ -22,7 +22,7 @@ urlpatterns = [
     url(r'^products/', include('products.urls')),
     url(r'^categories/', include('products.urls_categories')),
     url(r'^orders/$', OrderList.as_view(), name='orders'),
-     url(r'^orders/(?P<pk>\d+)/$', OrderDetail.as_view(), name='order_detail'),
+    url(r'^orders/(?P<pk>\d+)/$', OrderDetail.as_view(), name='order_detail'),
     url(r'^cart/$', CartView.as_view(), name='cart'),
     url(r'^cart/count/$', ItemCountView.as_view(), name='item_count'),
     url(r'^checkout/$', CheckoutView.as_view(), name='checkout'),
