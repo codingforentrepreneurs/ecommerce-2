@@ -151,3 +151,15 @@ The tutorial code below is the final code from the end of each tutorial video. E
 
 [70 - Order Detail](../../tree/251382a8c1bce8301f3e2403c4df5b65778af911)
 
+[71 - Braintree & Customer ID](../../tree/e3fdf173efddb88622d121135f4f0b5914514268)
+
+[72 - Braintree Instance Methods](../../tree/838b0ae0c3d3180baf794669b1552e2348c82b03)
+
+[73 - Run Braintree Transaction](../../tree/0724826547efc912015a0393ab379a9fc612c346)
+
+[74 - UI Updates](../../tree/880b12af7555c4aa3347dc4f885a69c54b31b69a)
+
+
+
+
+
