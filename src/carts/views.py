@@ -152,14 +152,20 @@ class CheckoutView(CartOrderMixin, FormMixin, DetailView):
 			user_checkout, created = UserCheckout.objects.get_or_create(email=self.request.user.email)
 			user_checkout.user = self.request.user
 			user_checkout.save()
+			context["client_token"] = user_checkout.get_client_token()
 			self.request.session["user_checkout_id"] = user_checkout.id
 		elif not self.request.user.is_authenticated() and user_check_id == None:
 			context["login_form"] = AuthenticationForm()
 			context["next_url"] = self.request.build_absolute_uri()
 		else:
 			pass
+
 		if user_check_id != None:
 			user_can_continue = True
+			if not self.request.user.is_authenticated(): #GUEST USER
+				user_checkout_2 = UserCheckout.objects.get(id=user_check_id)
+				context["client_token"] = user_checkout_2.get_client_token()
+		
 		#if self.get_cart() is not None:
 		context["order"] = self.get_order()
 		context["user_can_continue"] = user_can_continue
