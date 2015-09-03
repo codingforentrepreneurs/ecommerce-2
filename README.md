@@ -162,5 +162,7 @@ The tutorial code below is the final code from the end of each tutorial video. E
 [75 - Final Video Code](../../tree/20302d2ed08930d72f52a6d582f7cbfbdb99159b)
 
 
+## Addon Code
 
+[Advanced Filter for Product List](../../tree/eda34fa5bd1bb46e5542e5daa1cff6710b798b0d)
 
