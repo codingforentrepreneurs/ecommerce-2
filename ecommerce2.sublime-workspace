@@ -4,8 +4,348 @@
 		"selected_items":
 		[
 			[
+				"order",
+				"order_id"
+			],
+			[
+				"cus",
+				"customer_id〔variable〕"
+			],
+			[
+				"user_",
+				"user_check_id"
+			],
+			[
+				"user",
+				"user_checkout〔variable〕"
+			],
+			[
+				"custo",
+				"customer_id"
+			],
+			[
 				"get",
-				"get_queryset"
+				"get_braintree_id"
+			],
+			[
+				"User",
+				"UserCheckout〔module〕"
+			],
+			[
+				"user_check",
+				"user_checkout_id"
+			],
+			[
+				"bra",
+				"braintree_id"
+			],
+			[
+				"dec",
+				"decorators〔module〕"
+			],
+			[
+				"Or",
+				"OrderList〔class〕"
+			],
+			[
+				"bill",
+				"billing_address〔variable〕"
+			],
+			[
+				"bi",
+				"billing_address"
+			],
+			[
+				"st",
+				"street〔variable〕"
+			],
+			[
+				"get_",
+				"get_checkout_user"
+			],
+			[
+				"s",
+				"s_address"
+			],
+			[
+				"Http",
+				"HttpResponseRedirect〔class〕"
+			],
+			[
+				"form",
+				"form_class〔variable〕"
+			],
+			[
+				"b",
+				"b_address"
+			],
+			[
+				"new",
+				"new_order_id〔variable〕"
+			],
+			[
+				"cart",
+				"cart_total"
+			],
+			[
+				"ship",
+				"shipping_total_price"
+			],
+			[
+				"in",
+				"instance"
+			],
+			[
+				"shi",
+				"shipping_total_price"
+			],
+			[
+				"or",
+				"order_id"
+			],
+			[
+				"bil",
+				"billing_address_id"
+			],
+			[
+				"shipp",
+				"shipping_address"
+			],
+			[
+				"billing",
+				"billing_address"
+			],
+			[
+				"Add",
+				"AddressSelectFormView〔class〕"
+			],
+			[
+				"ex",
+				"exists_count"
+			],
+			[
+				"do",
+				"do_convertion"
+			],
+			[
+				"web",
+				"webm_name〔variable〕"
+			],
+			[
+				"we",
+				"webm_path"
+			],
+			[
+				"file",
+				"filename〔variable〕"
+			],
+			[
+				"get_form",
+				"get_form_class〔function〕"
+			],
+			[
+				"eami",
+				"email2"
+			],
+			[
+				"email",
+				"email2"
+			],
+			[
+				"e",
+				"email2"
+			],
+			[
+				"template",
+				"template_name"
+			],
+			[
+				"is_",
+				"is_authenticated"
+			],
+			[
+				"updat",
+				"updateCartItemCount〔function〕"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"sub",
+				"subtotal"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect〔module〕"
+			],
+			[
+				"sea",
+				"serialize〔function〕"
+			],
+			[
+				"item",
+				"item_id〔variable〕"
+			],
+			[
+				"update",
+				"update_subtotal"
+			],
+			[
+				"Cart",
+				"CartItem〔class〕"
+			],
+			[
+				"lin",
+				"line_item_total"
+			],
+			[
+				"del",
+				"delete_item〔variable〕"
+			],
+			[
+				"dete",
+				"delete_item〔variable〕"
+			],
+			[
+				"Car",
+				"CartItemInline〔class〕"
+			],
+			[
+				"F",
+				"ForeignKey"
+			],
+			[
+				"Pro",
+				"ProductImage〔module〕"
+			],
+			[
+				"Produ",
+				"ProductImageInline〔class〕"
+			],
+			[
+				"Vari",
+				"VariationInline〔class〕"
+			],
+			[
+				"max_",
+				"max_length"
+			],
+			[
+				"feat",
+				"featured_image"
+			],
+			[
+				"Produc",
+				"ProductFeatured〔class〕"
+			],
+			[
+				"prod",
+				"products_two〔variable〕"
+			],
+			[
+				"cate",
+				"categories"
+			],
+			[
+				"ca",
+				"categories"
+			],
+			[
+				"products",
+				"products_two〔variable〕"
+			],
+			[
+				"Product",
+				"ProductDetailView〔class〕"
+			],
+			[
+				"product",
+				"product_pk"
+			],
+			[
+				"Cate",
+				"CategoryDetailView〔class〕"
+			],
+			[
+				"Cat",
+				"CategoryDetailView〔class〕"
+			],
+			[
+				"va",
+				"variation_set"
+			],
+			[
+				"v",
+				"variation_set"
+			],
+			[
+				"sale",
+				"sale_price〔variable〕"
+			],
+			[
+				"var",
+				"variation_select"
+			],
+			[
+				"obj",
+				"object_list〔variable〕"
+			],
+			[
+				"objec",
+				"object_list"
+			],
+			[
+				"Va",
+				"Variation〔module〕"
+			],
+			[
+				"Var",
+				"VariationInventoryForm〔class〕"
+			],
+			[
+				"mode",
+				"modelform_factory〔module〕"
+			],
+			[
+				"produc",
+				"product_pk"
+			],
+			[
+				"produ",
+				"product_pk"
+			],
+			[
+				"model",
+				"modelformset_factory〔module〕"
+			],
+			[
+				"query",
+				"queryset"
+			],
+			[
+				"For",
+				"VariationInventoryForm〔class〕"
+			],
+			[
+				"Prod",
+				"ProductListView〔class〕"
+			],
+			[
+				"fil",
+				"filename〔argument〕"
+			],
+			[
+				"u",
+				"unlimited"
+			],
+			[
+				"has_",
+				"has_invt"
+			],
+			[
+				"templat",
+				"template_name"
 			],
 			[
 				"course",
@@ -36,16 +376,8 @@
 				"contrib〔module〕"
 			],
 			[
-				"get_",
-				"get_or_create"
-			],
-			[
 				"rel",
 				"related_name"
-			],
-			[
-				"obj",
-				"objects"
 			],
 			[
 				"Tea",
@@ -58,10 +390,6 @@
 			[
 				"ob",
 				"object〔variable〕"
-			],
-			[
-				"in",
-				"instance〔argument〕"
 			],
 			[
 				"lan",
@@ -184,341 +512,69 @@
 				"JsonResponse"
 			],
 			[
-				"is_",
-				"is_ajax"
-			],
-			[
 				"dat",
 				"dataTitle"
-			],
-			[
-				"ans",
-				"answered_is"
-			],
-			[
-				"cle",
-				"cleaned_data"
-			],
-			[
-				"L",
-				"LectureQuiz"
-			],
-			[
-				"get_b",
-				"get_object_or_404"
-			],
-			[
-				"Lecture",
-				"LectureQuiz"
-			],
-			[
-				"eng",
-				"english_trans"
-			],
-			[
-				"span",
-				"span_trans"
-			],
-			[
-				"tr",
-				"transcript"
-			],
-			[
-				"cl",
-				"cleaned_data"
-			],
-			[
-				"spani",
-				"spanish_transcript"
-			],
-			[
-				"t",
-				"transcripts"
-			],
-			[
-				"lecture",
-				"LectureTranscript"
-			],
-			[
-				"Le",
-				"Lecture"
-			],
-			[
-				"su",
-				"success"
-			],
-			[
-				"lectured",
-				"LectureDetailView"
-			],
-			[
-				"lo",
-				"LoginRequiredMixin"
-			],
-			[
-				"update",
-				"update_user	statement"
-			],
-			[
-				"ti",
-				"timezone	module"
-			],
-			[
-				"com",
-				"completed_on	statement"
-			],
-			[
-				"chem",
-				"chem_done	statement"
-			],
-			[
-				"pass",
-				"passing_score"
-			],
-			[
-				"Date",
-				"DateTimeField	class"
-			],
-			[
-				"User",
-				"UserQuizResult	class"
-			],
-			[
-				"Man",
-				"ManyToManyField	class"
-			],
-			[
-				"test",
-				"test_merchant_id	statement"
-			],
-			[
-				"Br",
-				"BRAINTREE_PUBLIC"
-			],
-			[
-				"user",
-				"user_updated	statement"
-			],
-			[
-				"Use",
-				"UserModel	class"
-			],
-			[
-				"the",
-				"the_user"
-			],
-			[
-				"remo",
-				"removeClass"
-			],
-			[
-				"re",
-				"register	statement"
-			],
-			[
-				"all",
-				"all_data	statement"
-			],
-			[
-				"lec",
-				"lecture"
-			],
-			[
-				"last",
-				"last_quiz_answered"
-			],
-			[
-				"las",
-				"last_viewed"
-			],
-			[
-				"date",
-				"DateTimeField	class"
-			],
-			[
-				"la",
-				"last_viewed	statement"
-			],
-			[
-				"se",
-				"settings	instance"
-			],
-			[
-				"succe",
-				"Successfully"
-			],
-			[
-				"is",
-				"is_valid"
-			],
-			[
-				"comp",
-				"completed"
-			],
-			[
-				"key",
-				"reset_key"
-			],
-			[
-				"res",
-				"reset_start	statement"
-			],
-			[
-				"ac",
-				"activation_key"
-			],
-			[
-				"che",
-				"chemicals	statement"
-			],
-			[
-				"Htt",
-				"HttpResponseRedirect	class"
-			],
-			[
-				"Te",
-				"TeamChemicalsManager	class"
-			],
-			[
-				"ch",
-				"chemicals"
-			],
-			[
-				"tea",
-				"TeamChemicals	class"
-			],
-			[
-				"me",
-				"members"
-			],
-			[
-				"Team",
-				"TeamChemicals	class"
-			],
-			[
-				"c",
-				"chemicals	statement"
-			],
-			[
-				"man",
-				"ManyToManyField	class"
-			],
-			[
-				"fin",
-				"final_activities	statement"
-			],
-			[
-				"meber",
-				"members	statement"
-			],
-			[
-				"p",
-				"PASSING_SCORE"
-			],
-			[
-				"qu",
-				"quiz	statement"
-			],
-			[
-				"Da",
-				"DateTimeField	class"
-			],
-			[
-				"use",
-				"username	param"
-			],
-			[
-				"set",
-				"set_password"
-			],
-			[
-				"new",
-				"new_password"
-			],
-			[
-				"te",
-				"temporary_password"
-			],
-			[
-				"fon",
-				"font-size"
-			],
-			[
-				"bk",
-				"background-color"
-			],
-			[
-				"ba",
-				"background-color"
-			],
-			[
-				"radio",
-				"radio-selcted"
-			],
-			[
-				"margin",
-				"margin-left"
-			],
-			[
-				"rad",
-				"radio-selcted"
-			],
-			[
-				"backg",
-				"background-color"
-			],
-			[
-				"log",
-				"login_required	function"
-			],
-			[
-				"next_",
-				"next_lecture"
-			],
-			[
-				"quiz",
-				"quiz"
-			],
-			[
-				"answer",
-				"answers_correct	statement"
-			],
-			[
-				"ma",
-				"max_digits	None"
-			],
-			[
-				"quest",
-				"question_obj	statement"
-			],
-			[
-				"an",
-				"answers	statement"
-			],
-			[
-				"HT",
-				"HttpResponseRedirect	class"
-			],
-			[
-				"cor",
-				"correct_answer"
-			],
-			[
-				"Que",
-				"QuizQuestionManager"
-			],
-			[
-				"Lect",
-				"LectureQuiz	class"
-			],
-			[
-				"send",
-				"sender_email	statement"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "src/todo.txt",
+			"settings":
+			{
+				"buffer_size": 357,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/orders/templates/orders/order_summary_short.html",
+			"settings":
+			{
+				"buffer_size": 767,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/orders/views.py",
+			"settings":
+			{
+				"buffer_size": 3483,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/orders/models.py",
+			"settings":
+			{
+				"buffer_size": 3468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/orders/templates/orders/address_select.html",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/templates/navbar.html",
+			"settings":
+			{
+				"buffer_size": 3541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "src/ecommerce2/urls.py",
+			"settings":
+			{
+				"buffer_size": 1684,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -559,8 +615,75 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/jmitch/Desktop/ecommerce-2/src",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts",
+		"/Users/jmitch/Desktop/ecommerce-2/src/ecommerce2",
+		"/Users/jmitch/Desktop/ecommerce-2/src/ecommerce2/settings",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders",
+		"/Users/jmitch/Desktop/ecommerce-2/src/templates",
+		"/Users/jmitch/Desktop/ecommerce-2/src/templates/registration"
+	],
 	"file_history":
 	[
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders/order_list.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders/order_detail.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders/order_summary_short.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/views.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/ecommerce2/settings/local.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts/checkout_view.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/templates/base.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/templates/javascript.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/models.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/views.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/mixins.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/forms.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/ecommerce2/urls.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/models.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts/view.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders/address_select.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/tests.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/admin.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/address_select.html",
+		"/Users/jmitch/Desktop/ogg_convert.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/templates/navbar.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/product_detail.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts/empty_cart.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/admin.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/templates/alert.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/models.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/static_in_pro/our_static/js/custom.js",
+		"/Users/jmitch/Desktop/ecommerce-2/src/static_in_pro/our_static/css/custom.css",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/view.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/views.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/admin.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/todo.txt",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/products.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/product_list.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/templates/home.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/newsletter/views.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/category_detail.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/product_thumbnail.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/forms.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/urls.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/urls_categories.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/templates/products/variation_list.html",
+		"/Users/jmitch/Desktop/ecommerce-2/src/products/mixins.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/static_in_pro/our_static/css/navbar-static-top.css",
+		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/urls.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/settings/production.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/settings/local.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/settings/base.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/old_settings.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/manage.py",
+		"/Users/jmitch/Desktop/ecommerce-2/src/.gitignore",
+		"/Users/jmitch/Desktop/ecommerce-2/src/trydjango18/wsgi.py",
 		"/Users/jmitch/Desktop/cbv/README.md",
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/views.py",
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/company/models.py",
@@ -635,70 +758,18 @@
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/favicons.html",
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/favicons.htm",
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/form.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/company/home.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/chemical_update.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/quiz_answer_admin.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/select_chemicals.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/forms.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/lecture_quiz_admin.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/questions/forms.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/forms.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/quiz_view.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/navbar.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/quiz.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/edit_modules.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/single.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/templatetags/selectedanswer.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/middleware.py",
-		"/Users/jmitch/Dropbox/projects/kpj/todo.txt",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/company/forms.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/error/400.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/views.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/error/500.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/billing/views.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/admin.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/braintree_info.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/accounts/join.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/error/404.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/requirements.txt",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/urls.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/ajax.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/chemicals/utils.py",
-		"/Users/jmitch/Desktop/interface.png",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/templatetags/last_lecture_action.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/models.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/views.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/models.py",
-		"/Users/jmitch/Dropbox/projects/kpj/lib/python2.7/site-packages/boto/sdb/db/blob.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/tests.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/lectures/templatetags/__init__.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/accounts/reset_email_text.txt",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/comingsoon.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/chemicals/review_chemicals.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/chemicals/review_checmicals.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/team_member_activity.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/home.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/team_member_results.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/activity.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/quiz_results.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/quiz/__init__.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/admin.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/templatetags/get_action_type.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/templatetags/get_model_name.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/templatetags/__init__.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/templatetags/get_model_name.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/templatetags/get_type",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/analytics/templatetags/__init__.py"
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/company/home.html"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 108.0,
 		"where_history":
 		[
+			"/Users/jmitch/Desktop/ecommerce-2/src",
 			"/Users/jmitch/Dropbox/projects/kpj",
 			"/Users/jmitch/Dropbox/projects/kpj/kpj",
 			"/Users/jmitch/Dropbox/projects/",
@@ -714,6 +785,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"AddressSelectFormView",
+			"order_address",
+			"\"",
+			"item_it",
+			"trydjango18",
 			"questions_notification",
 			"app.task",
 			"needs_rep",
@@ -836,12 +912,7 @@
 			"member.obj",
 			"member",
 			"activity(request",
-			"activity(",
-			"team",
-			"activity",
-			"UserQuizResult",
-			"home.html",
-			"all.html"
+			"activity("
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -849,6 +920,8 @@
 		"regex": false,
 		"replace_history":
 		[
+			"'",
+			"ecommerce2",
 			"Control Guidance Solutions, LLC",
 			"class=\"fa fa-check fa-2x\"",
 			"img/apple-touch-icon-152.png",
@@ -871,8 +944,216 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "src/todo.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 357,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								357,
+								357
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/orders/templates/orders/order_summary_short.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/orders/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3483,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1003,
+								1003
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 140.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/orders/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2864,
+								2864
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1287.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/orders/templates/orders/address_select.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/templates/navbar.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1596,
+								1596
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 301.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "src/ecommerce2/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1684,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								955,
+								961
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -915,7 +1196,7 @@
 	"project": "ecommerce2.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -942,12 +1223,12 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"selected_group": 0,
 	"settings":
