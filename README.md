@@ -164,5 +164,5 @@ The tutorial code below is the final code from the end of each tutorial video. E
 
 ## Addon Code
 
-[Advanced Filter for Product List](../../tree/eda34fa5bd1bb46e5542e5daa1cff6710b798b0d)
+[Advanced Filter for Product List using Django-Filter](../../tree/eda34fa5bd1bb46e5542e5daa1cff6710b798b0d)
 

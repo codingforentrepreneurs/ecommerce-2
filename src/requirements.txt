@@ -3,6 +3,7 @@ cffi==1.1.2
 cryptography==1.0
 Django==1.8.4
 django-crispy-forms==1.5.0
+django-filter==0.11.0
 django-registration-redux==1.2
 enum34==1.0.4
 idna==2.0
