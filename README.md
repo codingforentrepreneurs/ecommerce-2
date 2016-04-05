@@ -95,7 +95,7 @@ The tutorial code below is the final code from the end of each tutorial video. E
 
 [42 - Format Cart & Remove Items](../../tree/7779bed20758778ef82ac351ed1848f3ab7e9b4d)
 
-[43 - Update Cart Item Quantity in Cart](../..tree/ac84ddfa86d88a41b2559a84c78eabb63c791fb9)
+[43 - Update Cart Item Quantity in Cart](../../tree/ac84ddfa86d88a41b2559a84c78eabb63c791fb9)
 
 [44 - Cart Line Item Total](../../tree/39aac72f53e575f7fd33d354a782c8e52ab9f774)
 
