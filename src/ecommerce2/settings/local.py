@@ -28,8 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = []
 
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'yourgmail@gmail.com'
-EMAIL_HOST_PASSWORD = 'yourpassword'
+EMAIL_HOST_USER = 'jorosa08@gmail.com'
+EMAIL_HOST_PASSWORD = 'Jorosa1234+'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
@@ -151,9 +151,9 @@ LOGIN_REDIRECT_URL = '/'
 
 
 #Braintree Payments Details
-BRAINTREE_PUBLIC = "qn3p5n7njksw47r3"
-BRAINTREE_PRIVATE = "d14ac944794c0df1c81991ecf49221ff"
-BRAINTREE_MERCHANT_ID = "n84nynknvzz3j3sz"
+BRAINTREE_PUBLIC = "q8g89w8vftrr22ws"
+BRAINTREE_PRIVATE = "a549b83db1739c2ec898789a69328b24"
+BRAINTREE_MERCHANT_ID = "3x2pdhjkwk9djqbj"
 BRAINTREE_ENVIRONEMNT = "Sandbox"
 
 
