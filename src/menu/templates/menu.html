@@ -1,0 +1,15 @@
+
+<div class='row'>
+{% for menu in object_list %}
+
+			{{menu.title}}
+
+	{[menu.dish1 ]]
+	{{menu.dish2 }}
+
+	{% if not col_class_set %}
+{% cycle '' '' '</div><div class="row">' %}
+{% endif %}
+{% endfor %}
+
+</div>
