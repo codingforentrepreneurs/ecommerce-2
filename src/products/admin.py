@@ -27,8 +27,6 @@ class ProductAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 
-
-
 #admin.site.register(Variation)
 
 admin.site.register(ProductImage)
@@ -36,3 +34,5 @@ admin.site.register(ProductImage)
 admin.site.register(Category)
 
 admin.site.register(ProductFeatured)
+
+
