@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load crispy_forms_tags %}
+
+
+{% block content %}
+<div class="container content">
+	<div class="thumbnail">
+{% for menu in object_list %}
+	{% if menu.active == True %}
+
+	<h3>{{menu.week}}<small> Del <span style="color:green">{{menu.start_date |date:"d/m/y"}}</span> hasta <span style="color:green">{{menu.end_date |date:"d/m/y"}}</span></small></h3>
+		<div class="row">
+			{% for i in menu.menu_week.all %}
+			<div class="col-sm-2 col-md-2">
+				<div class="thumbnail">
+			  <h2>{{i.day }}</h2>
+					{% include "products/product_thumbnail.html" with product=i.dish1 price=True%}
+			<!--<div class="caption">-->
+				<p><a href="#" class="btn btn-primary btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a></p>
+			<!--</div>-->
+			  {% include "products/product_thumbnail.html" with product=i.dish2 price=True %}
+			<!--<div class="caption">-->
+				<p><a href="#" class="btn btn-primary btn-xs" role="button">Button</a> <a href="#" class="btn btn-default btn-xs" role="button">Button</a></p>
+			<!--</div>-->
+			</div>
+		</div>
+{% endfor %}
+
+
+</div>
+
+	{% endif %}
+{% endfor %}
+</div>
+	</div>
+{% endblock %}
