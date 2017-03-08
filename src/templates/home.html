@@ -14,7 +14,7 @@
 .jumbotron {
 	background-color:#5ACDFF;
 	color: #000;
-	{% if featured_image.make_image_background %} 
+	{% if featured_image.make_image_background %}
 	background-image: url("{{ featured_image.image.url }}");
 	background-repeat: no-repeat;
 	background-color: #000;
@@ -27,7 +27,7 @@
 </style>
 
 
-     
+
 {% block jumbotron %}
 
 	{% if featured_image %}
@@ -35,13 +35,13 @@
 		 <div class="container">
 			<div class="row">
 				<div class='col-sm-12 text-center {% if featured_image.text_right %} pull-right {% endif %}'>
-				<h1>{{ featured_image.product.title }}</h1>
-				<p>{{ featured_image.product.description }}</p>
+				<h1>{{ featured_image.post.title }}</h1>
+				<p>{{ featured_image.post.description }}</p>
 				<p>
-				<a class="btn btn-lg btn-primary" href="{{ featured_image.product.get_absolute_url }}" role="button">More Details </a>
+				<a class="btn btn-lg btn-primary" href="{{ featured_image.post.get_absolute_url }}" role="button">More Details </a>
 				</p>
 				</div>
-				{% if not featured_image.make_image_background %} 
+				{% if not featured_image.make_image_background %}
 				<div class='col-sm-6' >
 					<img src="{{ featured_image.image.url }}" class='img-responsive' />
 		 		</div>
@@ -81,19 +81,12 @@
 {% block content %}
 
 <div class='row'>
-<h3>Recommended Products</h3>
-{% include "products/products.html" with object_list=products col_class_set="col-sm-2" %}
-
-</div>
-
-<div class='row'>
-<h3>Featured Products</h3>
-{% include "products/products.html" with object_list=products2 %}
+{% include "post_list_home.html" with object_list=post col_class_set="col-sm-2" %}
 
 </div>
 
 
-<!-- 
+<!--
  {% if request.user.is_authenticated %}
 <h1>You are logged in!</h1>
 
@@ -114,7 +107,7 @@
 <div class="row">
 
   <div class="col-sm-3 pull-right">
-  	
+
 			<p class='lead text-align-center'>{{ title }}</p>
 
 			<form method='POST' action=''>{% csrf_token %}
@@ -131,7 +124,7 @@
 </div>
 
 <div class='col-sm-3'>
-<p class='lead text-align-center'>Created for Starters 
+<p class='lead text-align-center'>Created for Starters
 <br/>
 <span class='fa-stack fa-lg fa-5x'>
 <i class='fa fa-comment-o fa-stack-2x'></i>
@@ -160,3 +153,4 @@
 {% endif %} -->
 
 {% endblock %}
+0Buscando

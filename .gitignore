@@ -4,3 +4,11 @@ lib/
 .DS_STORE
 .Python
 *.py[cod]
+scripts/
+tcl/
+.idea/
+db.sqlite3
+
+### Vagrant
+.vagrant/
+*.log

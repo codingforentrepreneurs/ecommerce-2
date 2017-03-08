@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+(% load  urlify %)
+
+{% block head_title %}
+{{ instance.title}} | {{ block.super}}
+{% endblock head_title %}
+
+{% block content %}
+<div class="col-sm-9">
+    <div class="thumbnail">
+        <h2>{{title}}
+            <small>{{ instance.publish }}</small> {% if instance.draft %} <span style="color: RED">Draft</span> {% endif %}
+        </h2>
+        {% if instance.image %}
+        <img src="{{instance.image.url}}" class="img-responsive"/>
+        {% endif %}
+        <br>
+        <hr/>
+        <div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+        <!--<p class="glyphicon glyphicon-share">-->
+        <!--<a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}"> Facebook-->
+        <!--</a>-->
+        <!--<a href="https://twitter.com/home?status=={{ shar_text }}%20{{ request.build_absolute_uri }}">Twitter-->
+        <!--</a>-->
+        <!--<a href='https://plus.google.com/share?url={{ request.build_absolute_uri }}'>Google</a></p>-->
+        <p>{{ instance.content| linebreaks }}</p>
+        <p><b><em>{{ instance.category }}</em></b></p>
+        {% if instance.user.get_full_name %}<p>Author: <b>{{ instance.user.get_full_name }}</b></p> {% endif %}
+        <a class="btn btn-default" href="/post">BACK</a>
+        {% if instance.user == user %}
+        <a class="btn btn-default" href="{{ request.build_absolute_uri }}edit">EDIT</a>
+        {% endif %}
+    </div>
+    <div class="row">
+    <div class="fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div>
+    </div>
+</div>
+
+{% endblock %}

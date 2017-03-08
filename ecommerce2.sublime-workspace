@@ -520,71 +520,45 @@
 	"buffers":
 	[
 		{
-			"file": "src/todo.txt",
+			"file": "Lib/site-packages/braintree/test/credit_card_defaults.py",
 			"settings":
 			{
-				"buffer_size": 357,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/orders/templates/orders/order_summary_short.html",
+			"file": "Lib/site-packages/braintree/test/credit_card_numbers.py",
 			"settings":
 			{
-				"buffer_size": 767,
-				"line_ending": "Unix"
+				"buffer_size": 0,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/orders/views.py",
+			"contents": "['8 enero 2017','15 enero 2017','22 enero 2017','29 enero 2017','5 febrero 2017','12 febrero 2017','19 febrero 2017','26 febrero 2017','5 marzo 2017','12 marzo 2017','19 marzo 2017','26 marzo 2017','2 abril 2017','9 abril 2017','16 abril 2017','23 abril 2017','30 abril 2017','7 mayo 2017','14 mayo 2017','21 mayo 2017','28 mayo 2017','4 junio 2017','11 junio 2017','18 junio 2017','25 junio 2017','2 julio 2017','9 julio 2017','16 julio 2017','23 julio 2017','30 julio 2017','6 agosto 2017','13 agosto 2017','20 agosto 2017','27 agosto 2017','3 septiembre 2017','10 septiembre 2017','17 septiembre 2017','24 septiembre 2017','1 octubre 2017','8 octubre 2017','15 octubre 2017','22 octubre 2017','29 octubre 2017','5 noviembre 2017','12 noviembre 2017','19 noviembre 2017','26 noviembre 2017','3 diciembre 2017','10 diciembre 2017','17 diciembre 2017','24 diciembre 2017','31 diciembre 2017',]",
 			"settings":
 			{
-				"buffer_size": 3483,
-				"line_ending": "Unix"
+				"buffer_size": 893,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "src/orders/models.py",
+			"contents": "\n ---------------------------------------------------------------------------MenuWeek--------------------------------------------------------------------------------------------\n\nWeek = a = ['Semana 01','Semana 02','Semana 03','Semana 04','Semana 05','Semana 06','Semana 07','Semana 08','Semana 09','Semana 10','Semana 11','Semana 12','Semana 13','Semana 14','Semana 15','Semana 16','Semana 17','Semana 18','Semana 19','Semana 20','Semana 21','Semana 22','Semana 23','Semana 24','Semana 25','Semana 26','Semana 27','Semana 28','Semana 29','Semana 30','Semana 31','Semana 32','Semana 33','Semana 34','Semana 35','Semana 36','Semana 37','Semana 38','Semana 39','Semana 40','Semana 41','Semana 42','Semana 43','Semana 44','Semana 45','Semana 46','Semana 47','Semana 48','Semana 49','Semana 50','Semana 51','Semana 52',]\n\nstart_date = b = ['2017-01-02','2017-01-09','2017-01-16','2017-01-23','2017-01-30','2017-02-06','2017-02-13','2017-02-20','2017-02-27','2017-03-06','2017-03-13','2017-03-20','2017-03-27','2017-04-03','2017-04-10','2017-04-17','2017-04-24','2017-05-01','2017-05-08','2017-05-15','2017-05-22','2017-05-29','2017-06-05','2017-06-12','2017-06-19','2017-06-26','2017-07-03','2017-07-10','2017-07-17','2017-07-24','2017-07-31','2017-08-07','2017-08-14','2017-08-21','2017-08-28','2017-09-04','2017-09-11','2017-09-18','2017-09-25','2017-10-02','2017-10-09','2017-10-16','2017-10-23','2017-10-30','2017-11-06','2017-11-13','2017-11-20','2017-11-27','2017-12-04','2017-12-11','2017-12-18','2017-12-25',]\n\nend_date = c = ['2017-01-08','2017-01-15','2017-01-22','2017-01-29','2017-02-05','2017-02-12','2017-02-19','2017-02-26','2017-03-05','2017-03-12','2017-03-19','2017-03-26','2017-04-02','2017-04-09','2017-04-16','2017-04-23','2017-04-30','2017-05-07','2017-05-14','2017-05-21','2017-05-28','2017-06-04','2017-06-11','2017-06-18','2017-06-25','2017-07-02','2017-07-09','2017-07-16','2017-07-23','2017-07-30','2017-08-06','2017-08-13','2017-08-20','2017-08-27','2017-09-03','2017-09-10','2017-09-17','2017-09-24','2017-10-01','2017-10-08','2017-10-15','2017-10-22','2017-10-29','2017-11-05','2017-11-12','2017-11-19','2017-11-26','2017-12-03','2017-12-10','2017-12-17','2017-12-24','2017-12-31',]\n\n\n\n--------------------------------------------------------Products------------------------------------------------------------------------------------------------------------------\n\n\n",
+			"file": "Lib/site-packages/braintree/test/data_Test_ML.txt",
+			"file_size": 1990,
+			"file_write_time": 131330669736081646,
 			"settings":
 			{
-				"buffer_size": 3468,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/orders/templates/orders/address_select.html",
-			"settings":
-			{
-				"buffer_size": 425,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/navbar.html",
-			"settings":
-			{
-				"buffer_size": 3541,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/ecommerce2/urls.py",
-			"settings":
-			{
-				"buffer_size": 1684,
-				"line_ending": "Unix"
+				"buffer_size": 2393,
+				"line_ending": "Windows"
 			}
 		}
 	],
 	"build_system": "",
-	"build_system_choices":
-	[
-	],
-	"build_varint": "",
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "package",
 		"selected_items":
 		[
 			[
@@ -600,11 +574,7 @@
 	},
 	"console":
 	{
-		"height": 125.0,
-		"history":
-		[
-			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
-		]
+		"height": 125.0
 	},
 	"distraction_free":
 	{
@@ -615,22 +585,23 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/Users/jmitch/Desktop/ecommerce-2/src",
-		"/Users/jmitch/Desktop/ecommerce-2/src/carts",
-		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates",
-		"/Users/jmitch/Desktop/ecommerce-2/src/carts/templates/carts",
-		"/Users/jmitch/Desktop/ecommerce-2/src/ecommerce2",
-		"/Users/jmitch/Desktop/ecommerce-2/src/ecommerce2/settings",
-		"/Users/jmitch/Desktop/ecommerce-2/src/orders",
-		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates",
-		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders",
-		"/Users/jmitch/Desktop/ecommerce-2/src/templates",
-		"/Users/jmitch/Desktop/ecommerce-2/src/templates/registration"
-	],
 	"file_history":
 	[
+		"/C/Users/Fatima/Google Drive/venv/MariaLaura_django/MariaLaura/MariaLaura/settings.py",
+		"/C/Users/Fatima/AppData/Local/Temp/Rar$DIa0.295/README.rst",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/products/models.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/products/views.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/ecommerce2/settings/production.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/ecommerce2/settings/local.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/ecommerce2/settings/base.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/ecommerce2/old_settings.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/todo.txt",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/orders/templates/orders/order_summary_short.html",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/orders/views.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/orders/models.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/ecommerce2/urls.py",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/templates/navbar.html",
+		"/C/Users/Fatima/Google Drive/django/ecommerce-2/src/orders/templates/orders/address_select.html",
 		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders/order_list.html",
 		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders/order_detail.html",
 		"/Users/jmitch/Desktop/ecommerce-2/src/orders/templates/orders/order_summary_short.html",
@@ -743,22 +714,7 @@
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/review_chemicals.html",
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/utils.py",
 		"/Users/jmitch/Dropbox/projects/kpj/kpj/teams/forms.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/team_member_details.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/accounts/admin.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/company/views.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/chemical_list.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/default_chemical_form.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/chemicals/admin.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/company/company_admin_list_group.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/sidebar.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/chemical_form.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/chemicals/chemical_confirm_delete.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/lectures/manage_sidebar.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/kpj/settings/production.py",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/favicons.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/favicons.htm",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/form.html",
-		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/company/home.html"
+		"/Users/jmitch/Dropbox/projects/kpj/kpj/templates/team/team_member_details.html"
 	],
 	"find":
 	{
@@ -766,7 +722,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 108.0,
+		"height": 0.0,
 		"where_history":
 		[
 			"/Users/jmitch/Desktop/ecommerce-2/src",
@@ -785,6 +741,40 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			" '",
+			"diciembre",
+			"noviembre",
+			"octubre",
+			"septiembre",
+			"agosto",
+			"julio",
+			" '",
+			"agosto",
+			"julio",
+			"-2 ",
+			"-1 ",
+			"-1",
+			"-",
+			"diciembre",
+			"noviembre",
+			"octubre",
+			"septiembre",
+			"junio",
+			"mayo",
+			"abril",
+			"marzo",
+			"febrero",
+			"enero",
+			",,'',",
+			",",
+			"'",
+			",a",
+			"2017",
+			"S",
+			"'",
+			"Semana",
+			"S",
+			" ",
 			"AddressSelectFormView",
 			"order_address",
 			"\"",
@@ -878,41 +868,7 @@
 			"You are already logged in",
 			"pricing",
 			"login",
-			"PasswordResetForm",
-			"team",
-			"team_id",
-			"user_logged_in",
-			"transcript",
-			"template",
-			"modal",
-			"def __unicode__(self)",
-			"def__unicode__(self)",
-			"check",
-			"chain",
-			"action",
-			"get_model",
-			"team",
-			"DEFAULT_FROM_EMAIL",
-			"PasswordResetForm",
-			"activate",
-			"settings",
-			"request",
-			"reset",
-			"checmicals",
-			"activity",
-			"Pag",
-			"quiz",
-			"middle",
-			"user_logged_in",
-			"create",
-			"create_user",
-			"MemberCreateForm",
-			"Member",
-			"member",
-			"member.obj",
-			"member",
-			"activity(request",
-			"activity("
+			"PasswordResetForm"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -944,201 +900,49 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/todo.txt",
-					"semi_transient": false,
+					"file": "Lib/site-packages/braintree/test/credit_card_defaults.py",
 					"settings":
 					{
-						"buffer_size": 357,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								357,
-								357
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "src/orders/templates/orders/order_summary_short.html",
-					"semi_transient": false,
+					"file": "Lib/site-packages/braintree/test/credit_card_numbers.py",
 					"settings":
 					{
-						"buffer_size": 767,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								47,
-								47
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/orders/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3483,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1003,
-								1003
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 140.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/orders/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3468,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2864,
-								2864
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1287.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "src/orders/templates/orders/address_select.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 425,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								255,
-								255
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/templates/navbar.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3541,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1596,
-								1596
-							]
-						],
-						"settings":
-						{
-							"auto_complete": false,
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 301.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/ecommerce2/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1684,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								955,
-								961
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1151,7 +955,57 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"settings":
+					{
+						"buffer_size": 893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Lib/site-packages/braintree/test/data_Test_ML.txt",
+					"settings":
+					{
+						"buffer_size": 2393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2391,
+								2391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
 					"type": "text"
 				}
 			]
@@ -1192,8 +1046,6 @@
 	{
 		"height": 136.0
 	},
-	"pinned_build_system": "",
-	"project": "ecommerce2.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -1202,7 +1054,6 @@
 	"select_file":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -1215,32 +1066,15 @@
 	"select_project":
 	{
 		"height": 0.0,
-		"last_filter": "",
 		"selected_items":
 		[
 		],
 		"width": 0.0
 	},
-	"select_symbol":
-	{
-		"height": 392.0,
-		"last_filter": "",
-		"selected_items":
-		[
-		],
-		"width": 392.0
-	},
-	"selected_group": 0,
-	"settings":
-	{
-	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 313.0,
-	"status_bar_visible": true,
-	"template_settings":
-	{
-	}
+	"side_bar_width": 113.0,
+	"status_bar_visible": true
 }

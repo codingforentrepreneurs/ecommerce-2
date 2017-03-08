@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="col-sm-8 col-sm-offset-3">
+ <h1> Formulario </h1>
+ <form method="post" enctype="multipart/form-data" action=""> {% csrf_token %}
+       {{ form.as_p}}
+    <input class="btn btn-default" type="submit" value="Create Post">
+</form>
+</div>
+{% endblock content %}

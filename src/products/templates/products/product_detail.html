@@ -116,32 +116,33 @@ $("#submit-btn").click(function(event){
 </form>
 
 <br/>
+<!--<hr/>-->
+<!--<p>-->
+<!--Share<br/>-->
+<!--<a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}">-->
+<!--<i class="fa fa-facebook-square fa-3x"></i></a>-->
+
+<!--<a href="#">-->
+<!--<i class="fa fa-twitter-square fa-3x"></i></a>-->
+<!--</p>-->
+
 <hr/>
-<p>
-Share<br/>
-<a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}">
-<i class="fa fa-facebook-square fa-3x"></i></a>
+	<!-- cambiar por post blog..... //////// -->
+<!--<h4>Related Products</h4>-->
 
-<a href="#">
-<i class="fa fa-twitter-square fa-3x"></i></a>
-</p>
+	<!--<div class='row'>-->
+	<!--{#{% for product in related %} #}-->
 
-<hr/>
-<h4>Related Products</h4>
+		<!--<div class='col-xs-6'>-->
+			<!--{#{% include "products/product_thumbnail.html" with product=product price="True" %}#}-->
+		<!--</div>-->
+		<!--{#{% cycle '' '</div><div class="row">' %}#}-->
+	<!--{#{% endfor %}#}-->
 
-	<div class='row'>
-	{% for product in related %}
-
-		<div class='col-xs-6'>
-			{% include "products/product_thumbnail.html" with product=product price="True" %}
-		</div>
-		{% cycle '' '</div><div class="row">' %}
-	{% endfor %}
-
-		</div>
+		<!--</div>-->
 
 
-</div>
+<!--</div>-->
 <!-- End Product Sidebar -->
 
 
