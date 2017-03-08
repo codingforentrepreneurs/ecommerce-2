@@ -7,3 +7,5 @@ lib/
 scripts/
 tcl/
 .idea/
+posts/template/
+db.sqlite3
