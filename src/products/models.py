@@ -137,24 +137,24 @@ class Category(models.Model):
         return reverse("category_detail", kwargs={"slug": self.slug})
 
 
-def image_upload_to_featured(instance, filename):
-    title = instance.product.title
-    slug = slugify(title)
-    basename, file_extension = filename.split(".")
-    new_filename = "%s-%s.%s" % (slug, instance.id, file_extension)
-    return "products/%s/featured/%s" % (slug, new_filename)
+# def image_upload_to_featured(instance, filename):
+#     title = instance.product.title
+#     slug = slugify(title)
+#     basename, file_extension = filename.split(".")
+#     new_filename = "%s-%s.%s" % (slug, instance.id, file_extension)
+#     return "products/%s/featured/%s" % (slug, new_filename)
 
 
-class ProductFeatured(models.Model):
-    product = models.ForeignKey(Product)
-    image = models.ImageField(upload_to=image_upload_to_featured)
-    title = models.CharField(max_length=120, null=True, blank=True)
-    text = models.CharField(max_length=220, null=True, blank=True)
-    text_right = models.BooleanField(default=False)
-    text_css_color = models.CharField(max_length=6, null=True, blank=True)
-    show_price = models.BooleanField(default=False)
-    make_image_background = models.BooleanField(default=False)
-    active = models.BooleanField(default=True)
-
-    def __unicode__(self):
-        return self.product.title
+# class ProductFeatured(models.Model):
+#     product = models.ForeignKey(Product)
+#     image = models.ImageField(upload_to=image_upload_to_featured)
+#     title = models.CharField(max_length=120, null=True, blank=True)
+#     text = models.CharField(max_length=220, null=True, blank=True)
+#     text_right = models.BooleanField(default=False)
+#     text_css_color = models.CharField(max_length=6, null=True, blank=True)
+#     show_price = models.BooleanField(default=False)
+#     make_image_background = models.BooleanField(default=False)
+#     active = models.BooleanField(default=True)
+#
+#     def __unicode__(self):
+#         return self.product.title

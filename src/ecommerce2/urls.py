@@ -22,6 +22,7 @@ urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^accounts/', include('registration.backends.default.urls')),
     url(r'^products/', include('products.urls')),
+    url(r'^posts/', include("posts.urls", namespace='posts')),
     url(r'^categories/', include('products.urls_categories')),
     url(r'^orders/$', OrderList.as_view(), name='orders'),
     url(r'^orders/(?P<pk>\d+)/$', OrderDetail.as_view(), name='order_detail'),
