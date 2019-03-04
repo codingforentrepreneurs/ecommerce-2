@@ -1,3 +1,5 @@
+> This project is old. Check out the [eCommerce course](https://github.com/codingforentrepreneurs/eCommerce) instead.
+
 ![eCommerce 2 Logo](https://cfe-static.s3.amazonaws.com/media/ecommerce-2/images/ecommerce2.png)
 
 eCommerce 2 Tutorial Series
